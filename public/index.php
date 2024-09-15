@@ -11,7 +11,7 @@ include 'facebook.php';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>XMC Sign in & Login</title>
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="../main.css">
 </head>
 <body>
   <div class="container">
@@ -32,7 +32,7 @@ include 'facebook.php';
           <div class="sign_up_box_left">
 
           <div class="sign_up_box_right">
-            <form action="register.php" class="sign_up_box_form" method="POST">
+            <form action="../register.php" class="sign_up_box_form" method="POST">
               <input type="text" name="name" placeholder="name" required>
               <input type="email" name="email" placeholder="email" required>
               <input type="password" name="password" placeholder="password" required>
@@ -42,7 +42,7 @@ include 'facebook.php';
 
             <div class="sign_up_with_facebook">
               <a href="<?php echo $loginUrl; ?>">
-                <img src="./images/facebook_pic.svg" alt="Facebook">
+                <img src="../images/facebook_pic.svg" alt="Facebook">
                 <span>Sign up with Facebook</span>
               </a>
             </div>
@@ -56,7 +56,7 @@ include 'facebook.php';
           <span>Do'nt have an acoount?</span>  <a href="#" class="box_sign_up_btn">Sign Up</a>
       </div>
 
-      <form action="login.php" class="log_in_box_form" method="POST">
+      <form action="../login.php" class="log_in_box_form" method="POST">
         <input name="email" type="email" placeholder="Email" required>
         <input name="password" type="password" placeholder="password" required>
 
@@ -65,6 +65,6 @@ include 'facebook.php';
     </div>
   </div>
 
-  <script src="./script.js"></script>
+  <script src="../script.js"></script>
 </body>
 </html>
